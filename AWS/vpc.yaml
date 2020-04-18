@@ -1,0 +1,11 @@
+---
+- hosts: localhost
+  tasks: 
+  # Note: These examples do not set authentication details, see the AWS Guide for details.
+
+  - name: create a VPC 
+    ec2_vpc_net:
+      name: Dev
+      cidr_block: 10.10.0.0/16
+      region: us-east-1
+      #state: absent #delete vpc from your system/region
