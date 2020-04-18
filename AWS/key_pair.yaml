@@ -6,4 +6,5 @@
     ec2_key:
       name: bastion_host
       region: us-east-1
+      #state: absent #to delete the key-pair from your region
       key_material: 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC0HVraYk5Rw3l6+Uq+yV8crf/S4cAS2jzAfZsNF7tB9y5tWkfgPRvOCu7DjZIxe1NG/8p9glbGal1c9jmCB3+lEb6p4L6Ts2gJBYYwqyqLQ6XZQWpwXMB7Myk+OD3aieevzWiX9935D3fQvlwAAidwkqB47p1aaBcE+YKw1JUbiRjv+VxQf1t2lI772SCkeDQI8yD/XXkB0hQT2CSJZtenfEv3+ZhRreglQDpaAqxe6966vcYehch6t8BWbSksQ9QzBhBRWTWxo2XNILW/8L2DNz55z0yGf01fmgGsMcXbt6FQwUXkOQiRXYqGz8joV1IgnvUoY93siruPjI10dHvt centos@ip-172-31-31-35.eu-west-2.compute.internal'
