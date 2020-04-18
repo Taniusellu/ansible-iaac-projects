@@ -21,3 +21,4 @@
       region: us-east-1
       vpc_id: vpc-07b18c3739045005c
       cidr: 10.0.3.0/24
+      

@@ -10,4 +10,8 @@
       count: 1
       #Add a tag
       instance_tags:
+<<<<<<< HEAD
         Name: Created_by_ansible
+=======
+        Name: Created_by_ansible
+>>>>>>> 4980d260421f5add365763945c3216b54cf61cde
