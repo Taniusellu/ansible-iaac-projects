@@ -1,0 +1,7 @@
+key_name: "{{key_name}}"
+instance_type: t2.micro
+image: "{{image}}"
+group: "{{group}}"
+count: 5
+vpc_subnet_id: "{{vpc_subnet_id}}"
+assign_public_ip: yes

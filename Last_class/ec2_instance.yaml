@@ -7,7 +7,7 @@
   tasks: 
   - name: Create instance
     # Basic provisioning example
-    # Soft-code exemple for create a ec2 instance
+    # Soft-code exemple for create a ec2 instance/ the info is extracted from us-east-1.yaml
     ec2:
       key_name: "{{key_name}}"
       instance_type: "{{instance_type}}"
