@@ -1,5 +1,7 @@
 ---
 - hosts: localhost
+  include_vars: 
+  - some_region.yaml 
   tasks: 
   - name: Say hello
     package:
