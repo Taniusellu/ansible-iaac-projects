@@ -1,10 +1,11 @@
 ---
 - hosts: localhost
-  include_vars: 
+  become: yes
+  become_method: sudo
+  vars_files: 
   - some_region.yaml 
   tasks: 
   - name: Say hello
     package:
       name: "{{package_name}}"
-      state: installed
-
+      state: "{{state}}"
